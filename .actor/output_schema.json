@@ -1,0 +1,12 @@
+﻿{
+    "actorOutputSchemaVersion": 1,
+    "title": "E-Commerce Price Tracker Output",
+    "properties": {
+        "results": {
+            "title": "Pricing & Competitor Listings Dataset",
+            "type": "string",
+            "description": "Extracted product catalog with prices, stock status, ratings, and competitor URLs.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
