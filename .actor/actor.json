@@ -3,7 +3,7 @@
     "name": "ecommerce-price-tracker-pro",
     "title": "E-Commerce Price Tracker & Competitor Scraper",
     "description": "Monitor and extract real-time product prices, stock status, ratings, discounts, and competitor listings across Amazon, Mercado Libre, Shopify, and online stores. Export directly to CSV, Excel, and JSON.",
-    "version": "1.0.0",
+    "version": "0.0",
     "meta": {
         "templateId": "python-start"
     },
