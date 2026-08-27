@@ -1,37 +1,15 @@
-# E-Commerce Price Tracker & Competitor Scraper
+# 🛒 E-Commerce Price Tracker & Competitor Monitor
 
-Monitor real-time product prices, competitor discounts, seller domains, and stock availability across major online marketplaces and stores (Amazon, Mercado Libre, Shopify, Walmart, eBay).
+[![Apify](https://img.shields.io/badge/Apify-Actor-blue.svg)](https://apify.com)
+[![Free Tier](https://img.shields.io/badge/Free%20Trial-Available-brightgreen.svg)](https://apify.com)
 
-## 🚀 Features
+Track real-time **product prices, competitor discounts, seller domains, and stock availability** across major online stores and marketplaces (Amazon, Mercado Libre, Shopify, Walmart, eBay).
 
-- **Automated Price Extraction:** Automatically extracts price, currency, seller store, and stock status.
-- **Multi-Product Monitoring:** Track dozens or hundreds of SKU names in a single run.
-- **Global Market Support:** Filter by target country (US, ES, AR, MX, BR, UK, etc.).
-- **Export Formats:** Direct export to **Excel (XLSX)**, **CSV**, and **JSON**.
+---
 
-## 📥 Input Example
+## 🌟 Key Features
 
-```json
-{
-  "products": [
-    "PlayStation 5 Slim Console",
-    "iPhone 15 Pro Max 256GB",
-    "Sony WH-1000XM5 Noise Canceling Headphones"
-  ],
-  "maxResults": 30,
-  "targetMarket": "US",
-  "currency": "USD"
-}
-```
-
-## 📤 Output Format
-
-Each record in the dataset includes:
-- `productSearch`: Search query
-- `title`: Product listing title
-- `price`: Numeric price
-- `currency`: Currency symbol
-- `stockStatus`: In Stock / Out of Stock / Pre-Order
-- `seller`: Seller domain or marketplace
-- `productUrl`: Direct product link
-- `snippet`: Store description and specs
+- 🏷️ **Price & Discount Detection:** Automatically captures numeric prices, currency symbols, and raw price tags.
+- 📦 **Stock Status Tracking:** Identifies *In Stock*, *Out of Stock*, and *Pre-Order* items automatically.
+- 🌐 **Global Market Support:** Monitor prices in US, Europe, Latin America, and worldwide.
+- 📈 **Competitor Intelligence:** Keep track of competitor pricing changes to optimize your profit margins.
