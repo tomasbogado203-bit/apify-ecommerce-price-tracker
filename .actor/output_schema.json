@@ -5,8 +5,7 @@
         "resultsDataset": {
             "title": "Results dataset",
             "type": "string",
-            "template": "{{links.apiDefaultDatasetUrl}}",
-            "editor": "dataset"
+            "template": "{{links.apiDefaultDatasetUrl}}"
         }
     }
 }
