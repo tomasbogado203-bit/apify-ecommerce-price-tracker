@@ -1,0 +1,37 @@
+{
+    "title": "E-Commerce Price Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "products": {
+            "title": "Product Names / Search Queries",
+            "type": "array",
+            "description": "Products to search and monitor (e.g. 'iPhone 15 Pro Max', 'PlayStation 5', 'Zapatillas Nike Air Max', 'Sony WH-1000XM5').",
+            "editor": "stringList",
+            "prefill": ["PlayStation 5 Console", "iPhone 15 Pro 128GB", "MacBook Air M2"]
+        },
+        "maxResults": {
+            "title": "Max Results per Product",
+            "type": "integer",
+            "description": "Maximum number of price listings to extract per product.",
+            "minimum": 1,
+            "maximum": 5000,
+            "default": 30
+        },
+        "targetMarket": {
+            "title": "Target Market / Country",
+            "type": "string",
+            "description": "Country or currency market (e.g. 'US', 'ES', 'AR', 'MX', 'BR', 'GLOBAL').",
+            "default": "US",
+            "editor": "textfield"
+        },
+        "currency": {
+            "title": "Default Currency Symbol",
+            "type": "string",
+            "description": "Currency for prices (e.g. 'USD', 'EUR', 'ARS', 'BRL').",
+            "default": "USD",
+            "editor": "textfield"
+        }
+    },
+    "required": ["products"]
+}

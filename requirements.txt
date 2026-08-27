@@ -1,0 +1,4 @@
+apify>=4.0.0
+crawlee>=1.9.0
+httpx>=0.28.0
+beautifulsoup4>=4.13.0

@@ -1,0 +1,55 @@
+{
+    "actorSpecification": 1,
+    "name": "ecommerce-price-tracker-pro",
+    "title": "E-Commerce Price Tracker & Competitor Scraper",
+    "description": "Monitor and extract real-time product prices, stock status, ratings, discounts, and competitor listings across Amazon, Mercado Libre, Shopify, and online stores. Export directly to CSV, Excel, and JSON.",
+    "version": "1.0.0",
+    "meta": {
+        "templateId": "python-start"
+    },
+    "dockerfile": "../Dockerfile",
+    "readme": "../README.md",
+    "input": "./input_schema.json",
+    "storages": {
+        "dataset": {
+            "actorSpecification": 1,
+            "title": "E-Commerce Pricing Dataset",
+            "description": "Extracted product catalog with prices, stock status, ratings, and competitor URLs.",
+            "views": {
+                "overview": {
+                    "title": "Overview",
+                    "transformation": {
+                        "fields": [
+                            "title",
+                            "price",
+                            "currency",
+                            "stockStatus",
+                            "rating",
+                            "reviewsCount",
+                            "seller",
+                            "productUrl"
+                        ]
+                    },
+                    "display": {
+                        "component": "table",
+                        "columns": {
+                            "title": { "label": "Product Name" },
+                            "price": { "label": "Price" },
+                            "currency": { "label": "Currency" },
+                            "stockStatus": { "label": "Stock" },
+                            "rating": { "label": "Rating" },
+                            "reviewsCount": { "label": "Reviews" },
+                            "seller": { "label": "Seller" },
+                            "productUrl": { "label": "URL" }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "categories": [
+        "ECOMMERCE",
+        "BUSINESS",
+        "PRICE_MONITORING"
+    ]
+}
