@@ -34,14 +34,30 @@
                     "display": {
                         "component": "table",
                         "columns": {
-                            "title": { "label": "Product Name" },
-                            "price": { "label": "Price" },
-                            "currency": { "label": "Currency" },
-                            "stockStatus": { "label": "Stock" },
-                            "rating": { "label": "Rating" },
-                            "reviewsCount": { "label": "Reviews" },
-                            "seller": { "label": "Seller" },
-                            "productUrl": { "label": "URL" }
+                            "title": {
+                                "label": "Product Name"
+                            },
+                            "price": {
+                                "label": "Price"
+                            },
+                            "currency": {
+                                "label": "Currency"
+                            },
+                            "stockStatus": {
+                                "label": "Stock"
+                            },
+                            "rating": {
+                                "label": "Rating"
+                            },
+                            "reviewsCount": {
+                                "label": "Reviews"
+                            },
+                            "seller": {
+                                "label": "Seller"
+                            },
+                            "productUrl": {
+                                "label": "URL"
+                            }
                         }
                     }
                 }

@@ -1,12 +1,14 @@
-﻿{
+{
     "actorOutputSchemaVersion": 1,
-    "title": "E-Commerce Price Tracker Output",
+    "title": "Actor Results Dataset Output",
+    "description": "Structured dataset containing the extracted records, leads, or data items.",
+    "type": "object",
     "properties": {
-        "results": {
-            "title": "Pricing & Competitor Listings Dataset",
+        "resultsDataset": {
             "type": "string",
-            "description": "Extracted product catalog with prices, stock status, ratings, and competitor URLs.",
-            "template": "{{links.apiDefaultDatasetUrl}}/items"
+            "title": "Results Dataset",
+            "description": "Direct access to the dataset containing the scraped results.",
+            "editor": "dataset"
         }
     }
 }
